@@ -1,0 +1,11 @@
+doctype html
+html
+	include ./includes/head.pug
+	include ./includes/mixin.pug
+	body
+		include ./includes/header.pug
+		main.content-page
+			section.form-order
+				+icon('in', '#')
+				include ./includes/form-order.pug
+		include ./includes/footer.pug
